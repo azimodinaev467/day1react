@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.d1 {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: #1a1a2e;
+}
+
+.d2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 60px;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: #ffffff;
+}
+
+.d3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.d4 {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.d5 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #1a1a2e;
+}
+
+.d6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.d7 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.d8 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #9a9aaa;
+  text-transform: uppercase;
+}
+
+.d9 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a2e;
+  white-space: nowrap;
+}
+
+.d10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 60px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.d11 {
+  flex: 0 0 52%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.d12 {
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #111111;
+  letter-spacing: -0.01em;
+}
+
+.d13 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.d14 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.d15 {
+  display: flex;
+  gap: 14px;
+}
+
+.d16 {
+  flex: 1;
+  padding: 14px 16px;
+  border: 1.5px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background: #ffffff;
+}
+
+.d16::placeholder {
+  color: #aaaaaa;
+}
+
+.d16:focus {
+  border-color: #2b62d9;
+}
+
+.d17 {
+  width: 100%;
+  padding: 16px 20px;
+  background-color: #2b62d9;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  font-family: inherit;
+}
+
+.d17:hover {
+  background-color: #1e4db8;
+  box-shadow: 0 6px 20px rgba(43, 98, 217, 0.35);
+}
+
+.d18 {
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+}
+
+.d19 {
+  flex: 0 0 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d20 {
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
+}
